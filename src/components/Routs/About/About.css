@@ -1,0 +1,160 @@
+.project-container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 21%;
+    margin-right: 21%;
+    max-width: 940px;
+}
+
+
+
+
+.paragraph {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    font-family: Muli, sans-serif;
+    color: #555d6d;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+
+
+.photo-section {
+    display: block;
+    height: 460px;
+    background-image: url(../../../imgs/DenisKorytchenko.jpg);
+    background-position: 50% 50%;
+    background-size: 940px;
+    background-repeat: no-repeat;
+}
+
+
+.project-h3.about {
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+.project-h3 {
+    font-family: Muli, sans-serif;
+    color: #1106ff;
+}
+
+h3,
+h4 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.heading-7 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+h4 {
+    line-height: 24px;
+}
+
+
+.bullet-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.small-bullet {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin-right: 16px;
+    background-color: #1106ff;
+    -ms-flex-item-align: center;
+        align-self: center;
+}
+
+
+
+
+.bold-text {
+    font-family: Muli, sans-serif;
+    color: #3a3a3a;
+    letter-spacing: 6px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+
+
+
+  
+/* Small tablet to big tablet: from 768px to 991px*/
+@media only screen and (max-width: 991px) {
+    
+    .photo-section {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+
+}
+
+  
+  /* Small phones to small tablets: from 481px to 767px*/
+  @media only screen and (max-width: 767px) {
+    .photo-section {
+        height: 360px;
+        background-position: 50% -6px;
+        background-size: 780px;
+    }
+    
+  }
+  
+      
+ /* Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    .project-h3 {
+        text-align: center;
+    }
+
+    .photo-section {
+        height: 300px;
+        background-position: 50% 0px;
+        background-size: 660px;
+    }
+
+}

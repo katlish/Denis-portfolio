@@ -1,0 +1,23 @@
+.project-link {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    font-family: Muli, sans-serif;
+    color: #1106ff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+
+
+a {
+    background-color: transparent;
+}
+

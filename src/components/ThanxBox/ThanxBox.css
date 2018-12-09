@@ -1,0 +1,111 @@
+.ThanxBox {
+    display: block;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+
+.ThanxBox__container {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
+
+.thank-you {
+    font-family: Highlander, sans-serif;
+    color: #1106ff;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    cursor: default;
+    flex: 1;
+}
+
+.additional_container {
+    margin-top: 60px;
+}
+
+
+.project-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+
+@font-face {
+    font-family: 'Highlander';
+    src: url('../../fonts/Highlander.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+/* Small tablet to big tablet: from 768px to 991px*/
+@media only screen and (max-width: 991px) {
+  .thank-you {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ThanxBox__container { 
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 728px;
+  }
+}
+
+
+/* Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px) {
+ .ThanxBox { 
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+ .thank-you {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+  
+}
+
+
+/* Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    .ThanxBox { 
+        display: flex;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    .thank-you {
+        margin-bottom: 10px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        order: -1;
+        font-size: 40px;
+  }
+
+  .ThanxBox__container { 
+    flex-direction: column;
+    max-width: none;
+  }
+
+  .ThanxBox__container a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+}

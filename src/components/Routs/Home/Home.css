@@ -1,0 +1,227 @@
+.portfolio-wrapper {
+    margin-bottom: 80px;
+}
+
+.portfolio-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
+
+
+.divStyle1  {
+    background: rgba(0,0,0,0) url(../../../imgs/Administrator-Portal-Main.png);
+    height: 460px;
+    width: 50%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-position: 31%;
+}
+
+.divStyle2  {
+    background: rgba(0,0,0,0) url(../../../imgs/CTERA-App-Main.png);
+    height: 460px;
+    width: 50%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-position: 60%;
+}
+
+   
+.divStyle3  {
+    background: rgba(0,0,0,0) url(../../../imgs/Football-DNA.jpg);
+    height: 330px;
+    width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-position: 50% 67%;
+    background-size: 1000px;
+}
+
+.nav_box  {
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+    margin: 10px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}  
+
+.borderedIcons-overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.overlay {
+    text-decoration: none;
+    position:absolute;
+    display:none;
+}
+
+
+.nav_box:hover .overlay {
+    display:block;
+   
+}
+
+
+.nav_box:hover {
+    background-color: rgba(17, 6, 255, .8);
+}
+
+
+.nav_box:before {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: inherit;
+    content: ' ';
+}
+
+
+
+
+
+  
+/* Small tablet to big tablet: from 768px to 991px*/
+@media only screen and (max-width: 991px) {
+    .portfolio-container {
+        padding-right: 0px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        max-width: 728px;
+    }
+
+    .divStyle1,
+    .divStyle2,
+    .divStyle3 {
+        width: 100%;
+    }
+
+    .divStyle1 {
+        margin-bottom: 20px;
+        background-position: 50% 50%;
+    }
+
+    .divStyle2 {
+        margin-top: 0px;
+    }
+
+    .divStyle3 {
+        height: 460px;
+        background-size: cover;
+    }
+
+
+
+}
+
+  
+  /* Small phones to small tablets: from 481px to 767px*/
+  @media only screen and (max-width: 767px) {
+    .portfolio-wrapper {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+        
+
+    .divStyle1 {
+        background-position: 65% 0%;
+        background-size: cover;
+    }
+
+    .divStyle2 {
+        margin-top: 0px;
+    }
+
+    .divStyle3 {
+        height: 460px;
+        background-size: cover;
+    }
+
+    
+    
+  }
+  
+  
+  /* Small phones: from 0 to 480px*/
+  @media only screen and (max-width: 480px) {
+    .portfolio-wrapper {
+        margin-bottom: 60px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .portfolio-container {
+        max-width: none;
+    }
+
+    .divStyle1,
+    .divStyle2,
+    .divStyle3 {
+        height: 280px;
+    }
+
+    .divStyle1 {
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+    }
+
+    .divStyle2 {
+        background-size: cover;
+    }
+
+    .divStyle3 {
+        margin-top: 0px;
+    }
+    
+    .nav_box  {
+        margin-bottom: 10px;
+    }
+  }
+    
+    

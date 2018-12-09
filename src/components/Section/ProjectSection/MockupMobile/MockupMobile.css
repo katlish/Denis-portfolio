@@ -1,0 +1,224 @@
+.MockupMobile {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+
+
+.mobile-mockups-container {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
+.mobile-mockup {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.mobile-mockup img {
+    max-width: 100%;
+}
+
+
+.mobile-title {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 140px;
+}
+
+.note-text {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    font-family: 'Freestyle script', sans-serif;
+    color: #1106ff;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+.note-text.mobile-os {
+    margin-top: -40px;
+}
+
+
+.dashed-line {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px dashed #1106ff;
+}
+
+.note-text.mobile-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 140px;
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+.dashed-line-horizontal {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    border: 1px dashed #1106ff;
+}
+
+
+
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Small tablet to big tablet: from 768px to 991px*/
+@media only screen and (max-width: 991px) {
+    .mobile-mockups-container {
+        max-width: 728px;
+    }
+
+    .mobile-mockup img {
+        width: 284px;
+    }
+
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px) {
+    .mobile-mockup {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .mobile-title {
+        width: 100px;
+    }
+
+    .note-text.mobile-os {
+        margin-top: -20px;
+    }
+    
+    .note-text {
+        padding-right: 58px;
+        padding-left: 58px;
+    }
+
+    .note-text.mobile-title {
+        font-size: 30px;
+        line-height: 26px;
+    }
+
+    .mobile-mockup img {
+        width: 40vw;
+    }
+
+}
+
+
+/* Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    .mobile-mockups-container {
+        max-width: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .mobile-mockup {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .note-text.mobile-os {
+        margin-top: -40px;
+        font-size: 24px;
+    }
+
+    .note-text {
+        padding-right: 16px;
+        padding-left: 16px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .dashed-line {
+        display: none;
+    }
+
+    .note-text.mobile-title {
+        margin-bottom: 10px;
+        font-size: 34px;
+    }
+
+    .mobile-mockup img {
+        width: 100vw;
+    }
+
+    .mobile-title {
+        width: 100%;
+        padding-bottom: 0px;
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+}
+
+    

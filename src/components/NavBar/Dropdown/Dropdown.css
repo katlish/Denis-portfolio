@@ -1,0 +1,87 @@
+
+.dd-wrapper {
+    background-color: #fff;
+}
+
+.dd-header {
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80px;
+}
+
+.dd-header i {
+    color: #1106ff;
+    cursor: pointer;
+}
+
+
+
+
+.slider {
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: height 400ms ease 0s;
+    transition: height 400ms ease 0s;
+
+}
+
+
+.slider.open {
+    height: 300px;
+}
+
+.slider.close {
+    height: 0;
+}
+
+
+
+.dd-list {
+    height: 100%;
+    background-color: #1106ff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+}
+
+
+
+
+  /* Small phones to small tablets: from 481px to 767px*/
+  @media only screen and (max-width: 767px) {
+    .ddList.close {
+        -webkit-transform: translateY(-400px);
+                transform: translateY(-400px);
+    }
+  }
+  

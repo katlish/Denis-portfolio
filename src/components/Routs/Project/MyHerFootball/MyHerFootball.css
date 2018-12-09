@@ -1,0 +1,102 @@
+.logo-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-size: cover, cover;
+    background-repeat: repeat, no-repeat;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.logo-section.logo {
+    background-image: url(../../../../imgs/DNA-Crowd.jpg), url(../../../../imgs/DNA-Ball.jpg);
+    background-position: 50% 0px, 50% 50%;
+}
+
+.logo-section.players {
+    background-image: url(../../../../imgs/DNA-Ball.jpg);
+    background-position: 50% 50%;
+}
+
+.logo-section img {
+    max-width: 100%;
+}
+
+
+.logo-section div {
+    margin-bottom: 0; 
+}
+
+.mockup-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.dashed-line-horizontal.fullscreen {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* Small tablet to big tablet: from 768px to 991px*/
+@media only screen and (max-width: 991px) {
+    .logo-section { 
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .photo-players {
+        width: 568px;
+    }
+
+    .photo-mockup-DNA {
+        width: 708px;
+    }
+
+}
+
+
+/* Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px) {
+    .photo-players {
+        width: 74vw;
+    }
+
+    .photo-mockup-DNA {
+        width: 92vw;
+    }
+
+    .mockup-container { 
+        margin-top: -60px;
+        padding-top: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+
+/* Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    .photo-players {
+        width: 100vw;
+    }
+
+    .photo-mockup-DNA {
+        width: 100vw;
+    }
+
+    
+}
+
+    

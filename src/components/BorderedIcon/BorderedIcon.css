@@ -1,0 +1,43 @@
+
+.BorderedIcon {
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+}
+
+.blue {
+    font-size: 25px;
+    font-weight: 700;
+    color: blue;
+    border: 4px solid #1106ff;
+}
+
+
+.blueSmall {
+    font-size: 15px;
+    font-family: Lora, sans-serif;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: -40px;
+    padding: 5px 11px;
+    color: #1106ff;
+    border: 2px solid #1106ff;
+    font-weight: 600;
+}
+
+.white {
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 14px;
+    font-family: Lora, sans-serif;
+    font-weight: 700;
+    
+}
+
+.whiteBig {
+    color: #fff;
+    border: 3px solid #fff;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 1px 15px;
+}

@@ -1,0 +1,125 @@
+.TitleMain {
+    -ms-flex-item-align: center;
+        align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 20px auto;
+    max-width: 940px;
+    
+}
+.title_in {
+    -ms-flex-item-align: center;
+        align-self: center;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+
+.blueBig h1{
+    color: #1106ff;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.whiteSmall h1{
+    color: #fff;
+    /* TODO */
+    font-size: 40px;
+    line-height: 38px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.TitleMain h1 {
+    font-family: Lora, sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.blueBig h3{
+    color: #3a3a3a;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.whiteSmall h3{
+    color: #fff;
+    /* TODO */
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 8px;
+}
+
+.TitleMain h3 {
+    font-family: Muli, sans-serif;
+    letter-spacing: 8px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    
+  }
+  
+  /* Small tablet to big tablet: from 768px to 991px*/
+  @media only screen and (max-width: 991px) {
+    .TitleMain {
+        max-width: 728px;
+    }
+  
+  }
+  
+  
+  /* Small phones to small tablets: from 481px to 767px*/
+  @media only screen and (max-width: 767px) {
+    .blueBig h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    
+  }
+  
+  
+  /* Small phones: from 0 to 480px*/
+  @media only screen and (max-width: 480px) {
+    .TitleMain {
+        max-width: none;
+    }
+
+    .blueBig h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .TitleMain h3 {
+        margin-top: 10px;
+    }
+    
+  }
+    
+ 

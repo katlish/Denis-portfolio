@@ -1,0 +1,13 @@
+    
+.ErrorPage {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: 200px;
+    width: 200px;
+    color: #1106ff;
+    border: 3px solid #1106ff;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+}

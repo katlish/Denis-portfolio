@@ -1,24 +1,27 @@
 .logo-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
     background-size: cover, cover;
     background-repeat: repeat, no-repeat;
-    width: 100%;
     margin-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .logo-section.logo {
     background-image: url(../../../../imgs/DNA-Crowd.jpg), url(../../../../imgs/DNA-Ball.jpg);
     background-position: 50% 0px, 50% 50%;
+    
 }
 
 .logo-section.players {
     background-image: url(../../../../imgs/DNA-Ball.jpg);
     background-position: 50% 50%;
+    padding-top: 170px;
+    padding-bottom: 170px;
 }
 
 .logo-section img {
     max-width: 100%;
+    align-self: center;
 }
 
 
@@ -42,7 +45,6 @@
 }
 
 .dashed-line-horizontal.fullscreen {
-    width: 100%;
     margin-bottom: 50px;
 }
 
@@ -52,6 +54,11 @@
 /* Small tablet to big tablet: from 768px to 991px*/
 @media only screen and (max-width: 991px) {
     .logo-section { 
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .logo-section.players { 
         padding-top: 70px;
         padding-bottom: 70px;
     }
@@ -92,10 +99,7 @@
         width: 100vw;
     }
 
-    .photo-mockup-DNA {
-        width: 100vw;
-    }
-
+    
     
 }
 

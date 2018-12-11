@@ -85,8 +85,10 @@ class CteraMobile extends Component {
               <Title text="Design Process"/>
               <p className="paragraph blue-title">Phase 1</p>
             </div>
-
-            <img class="photo-process" src={require('../../../../imgs/Design-Process-P1.svg')}/>
+            
+            <div class="photo-process-container">
+                <img class="photo-process" src={require('../../../../imgs/Design-Process-P1.svg')} alt="Design Proces"/>
+            </div>    
 
             <div className="project-container">
               <div class="bullet-item">
@@ -115,8 +117,10 @@ class CteraMobile extends Component {
             <div className="project-container self-start">
               <p className="paragraph blue-title">Phase 2</p>
             </div>
-
-            <img class="photo-process" src={require('../../../../imgs/Design-Process-P2.svg')}/>
+            
+            <div class="photo-process-container">
+                <img class="photo-process" src={require('../../../../imgs/Design-Process-P2.svg')} alt="Design Proces"/>
+            </div>  
 
             <div className="project-container">
               <div class="bullet-item">
@@ -125,37 +129,38 @@ class CteraMobile extends Component {
               </div>
             </div>
 
-            <div className="project-container self-start">
-              <Title text="What We Achieved"/>
-            </div>
+            <div className="project-container">
+                <Title text="What We Achieved"/>
 
-            <div className="icon-section">
-                    <div className="icon-with-bullets-image">
-                        <img src={require('../../../../imgs/icons/icon-performance.svg')} alt="Performance Issue" />
-                    </div>
-
-                    <div className="bullet-section">
-                        <h2 class="title">Fast Performance</h2>
-                        <div class="bullet-item">
-                            <div class="small-bullet"/>
-                            <p className="paragraph">The previous hybrid application had very slow performance and caused negative client feedback. Also, in some cases after iOS or Android updates, the app crashed. With native development, all these issues were solved immediately</p>
+                <div className="icon-section">
+                        <div className="icon-with-bullets-image">
+                            <img src={require('../../../../imgs/icons/icon-performance.svg')} alt="Performance Issue" />
                         </div>
-                    </div>
-            </div>
 
-            <div className="icon-section">
-                    <div className="icon-with-bullets-image">
-                        <img src={require('../../../../imgs/icons/icon-native.svg')} alt="Performance Issue" />
-                    </div>
-
-                    <div className="bullet-section">
-                        <h2 class="title">Native App Experience</h2>
-                        <div class="bullet-item">
-                            <div class="small-bullet"/>
-                            <p className="paragraph">With native development, iPhone users and Android mobile phones users get the app that was designed according to relevant guidelines. So they started using the app naturally with the minimum learning curve</p>
+                        <div className="bullet-section">
+                            <h2 class="title">Fast Performance</h2>
+                            <div class="bullet-item">
+                                <div class="small-bullet"/>
+                                <p className="paragraph">The previous hybrid application had very slow performance and caused negative client feedback. Also, in some cases after iOS or Android updates, the app crashed. With native development, all these issues were solved immediately</p>
+                            </div>
                         </div>
-                    </div>
-            </div>
+                </div>
+            
+                <div className="icon-section">
+                        <div className="icon-with-bullets-image">
+                            <img src={require('../../../../imgs/icons/icon-native.svg')} alt="Performance Issue" />
+                        </div>
+
+                        <div className="bullet-section">
+                            <h2 class="title">Native App Experience</h2>
+                            <div class="bullet-item">
+                                <div class="small-bullet"/>
+                                <p className="paragraph">With native development, iPhone users and Android mobile phones users get the app that was designed according to relevant guidelines. So they started using the app naturally with the minimum learning curve</p>
+                            </div>
+                        </div>
+                </div>
+            </div>    
+            
 
 
                 <MockupMobile leftText="iOS"
@@ -186,36 +191,39 @@ class CteraMobile extends Component {
                                 imgNameRight="Offline-Settings-Android"
                 />
 
-
-            <div className="icon-section">
-                    <div className="icon-with-bullets-image">
-                        <img src={require('../../../../imgs/icons/icon-workflow.svg')} alt="Performance Issue" />
-                    </div>
-
-                    <div className="bullet-section">
-                        <h2 class="title">Seamless Workflow Between Web and Mobile App</h2>
-                        <div class="bullet-item">
-                            <div class="small-bullet"/>
-                            <p className="paragraph">With the new app users can access and edit their files with the smartphone even without internet connection. Also, they can share documents and work collaboratively on these files with their colleagues</p>
-                        </div>
-                    </div>
-            </div>
-
-
-            <div className="dark-section">
+            <div className="project-container">
                 <div className="icon-section">
                         <div className="icon-with-bullets-image">
-                            <img src={require('../../../../imgs/icons/icon-branding-white.svg')} alt="Performance Issue" />
+                            <img src={require('../../../../imgs/icons/icon-workflow.svg')} alt="Performance Issue" />
                         </div>
 
                         <div className="bullet-section">
-                            <h2 class="title white-text">Easy Branding</h2>
+                            <h2 class="title">Seamless Workflow Between Web and Mobile App</h2>
                             <div class="bullet-item">
-                                <div class="small-bullet bullet-white"/>
-                                <p className="paragraph white-text">CTERA provides white-labeled product to the clients. In the design process, I used only vector assets and native components, which allow color change by code, without replacing the asset itself. Also, I created a style guide with the color palette, icon sets, app elements, and typography and this allowed developers to create a skin file that can be changed easily by the client according to the company branding</p>
+                                <div class="small-bullet"/>
+                                <p className="paragraph">With the new app users can access and edit their files with the smartphone even without internet connection. Also, they can share documents and work collaboratively on these files with their colleagues</p>
                             </div>
                         </div>
                 </div>
+            </div>    
+
+
+            <div className="dark-section">
+                <div className="project-container">
+                    <div className="icon-section">
+                            <div className="icon-with-bullets-image">
+                                <img src={require('../../../../imgs/icons/icon-branding-white.svg')} alt="Performance Issue" />
+                            </div>
+
+                            <div className="bullet-section">
+                                <h2 class="title white-text">Easy Branding</h2>
+                                <div class="bullet-item">
+                                    <div class="small-bullet bullet-white"/>
+                                    <p className="paragraph white-text">CTERA provides white-labeled product to the clients. In the design process, I used only vector assets and native components, which allow color change by code, without replacing the asset itself. Also, I created a style guide with the color palette, icon sets, app elements, and typography and this allowed developers to create a skin file that can be changed easily by the client according to the company branding</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>    
             </div>
 
 

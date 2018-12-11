@@ -4,7 +4,6 @@ import NavBar from '../../NavBar/NavBar';
 import Footer from '../../Footer/Footer';
 import ThanxBox from '../../ThanxBox/ThanxBox';
 import BorderedIcon from '../../BorderedIcon/BorderedIcon';
-import Section from '../../Section/Section';
 
 import {} from './Project.css'
 
@@ -102,9 +101,7 @@ const Project = ({ match }) => {
 
         }
         
-        <Section>
             <MyComponent />
-        </Section>
 
         {
             project ?

@@ -81,8 +81,10 @@ class CteraWeb extends Component {
             <div className="project-container self-start">
               <Title text="Design Process"/>
             </div>
-
-            <img class="photo-process" src={require('../../../../imgs/Design-Process.svg')}/>
+            
+            <div class="photo-process-container">
+                <img class="photo-process" src={require('../../../../imgs/Design-Process.svg')} alt="Design Proces"/>
+            </div>
 
             <div className="project-container">
               <div class="bullet-item">
@@ -91,9 +93,8 @@ class CteraWeb extends Component {
               </div>
             </div>
 
-            <div className="project-container self-start">
-              <Title text="Problems & Solutions"/>
-            </div>
+            <div className="project-container">
+                  <Title text="Problems & Solutions"/>
 
                   <div className="icon-section">
 
@@ -116,6 +117,7 @@ class CteraWeb extends Component {
                     </div>
 
                   </div>
+              
 
 
                   <div className="icon-section">
@@ -144,7 +146,7 @@ class CteraWeb extends Component {
                           </div>
                     </div>
                   </div>
-                  
+            </div>      
 
                 <div class="admin-elements">
                     <img class="admin-elements-screen"
@@ -176,7 +178,7 @@ class CteraWeb extends Component {
                                         
                     />
                 </div>
-
+            <div className="project-container">
                 <div className="icon-section">
                     <div className="icon-with-bullets-image">
                         <img src={require('../../../../imgs/icons/icon-performance.svg')} alt="Performance Issue" />
@@ -220,6 +222,7 @@ class CteraWeb extends Component {
                         </div>
                     </div>
                   </div>
+            </div>
                   
 
                   <div class="admin-elements">
@@ -240,6 +243,7 @@ class CteraWeb extends Component {
                         />
                   </div>
 
+            <div className="project-container">
 
                   <div className="icon-section">
                     <div className="icon-with-bullets-image">
@@ -260,7 +264,8 @@ class CteraWeb extends Component {
                         </div>
                     </div>
                   </div>
-
+                </div>
+                
               <div className="palette-section">
                 <div class="palette-item">
                   <div class="note-text">

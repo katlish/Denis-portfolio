@@ -1,25 +1,12 @@
 .dark-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-
+    
     margin-top: 40px;
     margin-bottom: 100px;
     padding-top: 160px;
     padding-bottom: 160px;
     background-color: #192730;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 39, 48, .9)), to(rgba(25, 39, 48, .9))), url(../../../../imgs/Mobile-Branding-1.png), url(../../../../imgs/Mobile-Branding-2.png);
-    background-image: linear-gradient(180deg, rgba(25, 39, 48, .9), rgba(25, 39, 48, .9)), url(../../../../imgs/Mobile-Branding-1.png), url(../../../../imgs/Mobile-Branding-2.png);
+    background-image: linear-gradient(180deg, rgba(25, 39, 48, .9), rgba(25, 39, 48, .9)), url(../../../../imgs/Mobile-Branding-1_1.png), url(../../../../imgs/Mobile-Branding-2.png);
     background-position: 0px 0px, 100% 50%, 0px 50%;
     background-size: auto, 950px, 593px;
     background-repeat: repeat, no-repeat, no-repeat;
@@ -35,3 +22,39 @@
     background-color: white;
 }
 
+
+
+/* Small tablet to big tablet: from 768px to 991px*/
+@media only screen and (max-width: 991px) {
+    .dark-section { 
+        background-image: linear-gradient(180deg, rgba(25, 39, 48, .9), rgba(25, 39, 48, .9)),url(../../../../imgs/Mobile-Branding-1_1.png);
+        background-position: 0px 0px, 0px 0px;
+        background-size: auto, 950px;
+        background-repeat: repeat, repeat;
+    }
+
+}
+
+
+/* Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px) {
+    .dark-section { 
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-image: linear-gradient(180deg, rgba(25, 39, 48, .9), rgba(25, 39, 48, .9)), url(../../../../imgs/Mobile-Branding-1.png);
+        background-position: 0px 0px, 0px 0px;
+        background-size: auto, 950px;
+        background-repeat: repeat, no-repeat;
+    }
+}
+
+
+/* Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    
+
+    
+    
+}
+
+ 

@@ -83,9 +83,11 @@ revealing the DNA of eight legendary football players and their ethnic backgroun
             <div className="project-container self-start">
               <Title text="Design Process"/>
             </div>
-
-            <img class="photo-process" src={require('../../../../imgs/Design-Process-DNA.svg')}/>
             
+            <div class="photo-process-container">
+                <img class="photo-process" src={require('../../../../imgs/Design-Process-DNA.svg')} alt="Design Proces"/>
+            </div>
+
             <div className="project-container">
               <div class="bullet-item">
                   <div class="small-bullet"/>
@@ -94,38 +96,39 @@ revealing the DNA of eight legendary football players and their ethnic backgroun
             </div>
             
 
-            <div className="project-container self-start">
-              <Title text="Visual Language"/>
-            </div>
+            <div className="project-container">
+                <Title text="Visual Language"/>
+            
 
-            <div className="icon-section">
+                <div className="icon-section">
 
-                <div className="icon-with-bullets-image">
-                    <img src={require('../../../../imgs/icons/icon-dark.svg')} />
-                </div>
+                    <div className="icon-with-bullets-image">
+                        <img src={require('../../../../imgs/icons/icon-dark.svg')} />
+                    </div>
 
-                <div className="bullet-section">
-                    <h2 class="title">Dark Interface</h2>
-                    <div class="bullet-item">
-                        <div class="small-bullet"/>
-                        <p className="paragraph">After the research I conducted, I saw that most sport websites and sport video game interfaces are dark with very bright elements. So the decision was to stick to the existing pattern</p>
+                    <div className="bullet-section">
+                        <h2 class="title">Dark Interface</h2>
+                        <div class="bullet-item">
+                            <div class="small-bullet"/>
+                            <p className="paragraph">After the research I conducted, I saw that most sport websites and sport video game interfaces are dark with very bright elements. So the decision was to stick to the existing pattern</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="icon-section">
-                <div className="icon-with-bullets-image">
-                    <img src={require('../../../../imgs/icons/icon-dynamic.svg')} />
-                </div>
+                <div className="icon-section">
+                    <div className="icon-with-bullets-image">
+                        <img src={require('../../../../imgs/icons/icon-dynamic.svg')} />
+                    </div>
 
-                <div className="bullet-section">
-                    <h2 class="title">Dynamic and Bright Elements</h2>
-                    <div class="bullet-item">
-                        <div class="small-bullet"/>
-                        <p className="paragraph">To give the website the dynamic look I decided to do the following: use bold italic font and add bright multi-colored diagonal lines</p>
+                    <div className="bullet-section">
+                        <h2 class="title">Dynamic and Bright Elements</h2>
+                        <div class="bullet-item">
+                            <div class="small-bullet"/>
+                            <p className="paragraph">To give the website the dynamic look I decided to do the following: use bold italic font and add bright multi-colored diagonal lines</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div>    
 
                   
             <div className="logo-section logo">
@@ -134,21 +137,22 @@ revealing the DNA of eight legendary football players and their ethnic backgroun
                 </div>
             </div>
 
+            <div className="project-container">
+                <div className="icon-section">
+                    <div className="icon-with-bullets-image">
+                        <img src={require('../../../../imgs/icons/icon-branding.svg')} />
+                    </div>
 
-            <div className="icon-section">
-                <div className="icon-with-bullets-image">
-                    <img src={require('../../../../imgs/icons/icon-branding.svg')} />
-                </div>
-
-                <div className="bullet-section">
-                    <h2 class="title">Color Usage</h2>
-                    <div class="bullet-item">
-                        <div class="small-bullet"/>
-                        <p className="paragraph">To connect the design to the brand, I used MyHeritage DNA colors with the lines on the homepage. In addition, I decided to give each football player his own color that comes from the country flag. So in the player pages, I used "player color" on the top section of the site where a player overview is written. But from the ethnicity section and lower, I used the brand purple color</p>
+                    <div className="bullet-section">
+                        <h2 class="title">Color Usage</h2>
+                        <div class="bullet-item">
+                            <div class="small-bullet"/>
+                            <p className="paragraph">To connect the design to the brand, I used MyHeritage DNA colors with the lines on the homepage. In addition, I decided to give each football player his own color that comes from the country flag. So in the player pages, I used "player color" on the top section of the site where a player overview is written. But from the ethnicity section and lower, I used the brand purple color</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
+            
 
             <div className="logo-section players">
                 <div className="project-container">
@@ -169,8 +173,12 @@ revealing the DNA of eight legendary football players and their ethnic backgroun
             </div>
 
 
-            <div className="project-container">
-              <Title text="Final Design" isCentered={true}/>
+            <div className="project-section">
+                <div className="project-container">
+                    <div className="centered">
+                        <Title text="Final Design" isCentered={true}/>
+                    </div>
+                </div>    
             </div>
             
 
